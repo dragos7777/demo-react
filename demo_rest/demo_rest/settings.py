@@ -26,9 +26,12 @@ SECRET_KEY = 'django-insecure-qja#_m63b3-0idgl$pn8oc!jej*m$it1l^h=hkw2k3gw^p(-#8
 DEBUG = True
 
 ALLOWED_HOSTS = ['demo-rest-demo.herokuapp.com',
-'https://demo-rest-front.herokuapp.com/']
+'https://demo-rest-front.herokuapp.com/',
+ 'http://localhost:3000',]
 CORS_ORIGIN_WHITELIST = [
     'http://localhost:3000',
+    'demo-rest-demo.herokuapp.com',
+'https://demo-rest-front.herokuapp.com/'
 ]
 
 # Application definition
